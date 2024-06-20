@@ -1,0 +1,107 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+.FirstPage{
+    position: relative;
+    height:100vh;
+    width:100%;
+    background-color: rgb(20, 20, 20);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-left: 100px;
+    padding-right: 60px;
+}
+.pictureBackground
+{
+    height: 470px;
+    width: 470px;
+    border-radius: 50%;
+    position:absolute;
+    top: 39%;
+    right: 50px;
+    background: linear-gradient(to right,rgb(255, 255, 255),rgb(170, 170, 170));
+    overflow: hidden;
+    box-shadow: 0px 0px 25px #00ffee;
+    transition: 0.3s ease-in-out;
+}
+.pictureBackground:hover{
+    height: 473px;
+    width: 473px;
+    box-shadow: 0px 0px 25px #00ffee,
+                0px 0px 50px #00ffee;
+}
+nav ul li{
+    display: inline-block;
+    padding: 10px 25px;
+    font-size: 20px;
+    padding-bottom:25px ;
+}
+header a{
+    color :rgb(255, 255, 255);
+    text-decoration: none;
+
+    border-radius: 2px ;
+    padding: 3px;
+    
+    border-bottom: 1px solid #01d8d1 ;
+}
+header a:hover{
+    background: #01d8d1;
+    -webkit-transition: ease-in .2s;
+    transition: ease-in-out .2s; 
+}
+img {
+    height: 100%;
+    border-radius: 50%;
+    position: relative;
+    right:15%;
+  }
+.logo
+{
+    font:900;
+    font-size: 40px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #00fff5;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-shadow: 0px 0px 5px cyan;
+    padding-bottom:20px ;
+}
+.content
+{
+    padding: 100px;
+    margin-top: 8%;
+    font-size: 30px;
+    color:rgb(255, 255, 255);
+    letter-spacing: 3px;
+}
+.content h1 span{
+    color: #00fff5;
+}
+      .blink{
+             animation: blink .5s infinite;
+            }
+        @keyframes blink{
+                        to{opacity: .0; }
+                    }
+         .flex{
+              display: flex;
+            }
+  #A{
+    font-size: 40px;
+  }
+  .header-sub-title {
+    color: #00fff5;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 40px;
+  }
