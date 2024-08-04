@@ -19,6 +19,7 @@ function typingEffect() {
 function deletingEffect() {
 	let word = words[i].split("");
 	var loopDeleting = function() {
+		
 		if (word.length > 0) {
 			word.pop();
 			document.getElementById('word').innerHTML = word.join("");
